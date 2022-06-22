@@ -3,8 +3,6 @@ import 'package:http/http.dart' as http;
 import 'package:mewallet/models/models.dart';
 
 Future usuarioProvider() async {
-  // This example uses the Google Books API to search for books about http.
-  // https://developers.google.com/books/docs/overview
   var url = Uri.https('marcatoma-wewallet.herokuapp.com', '/usuario/chrisadr');
 
   // Await the http get response, then decode the json-formatted response.
