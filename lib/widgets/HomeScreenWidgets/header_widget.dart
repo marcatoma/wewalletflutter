@@ -17,7 +17,7 @@ class HeaderWidget extends StatelessWidget {
     final fecha = DateFormat('hh:mm a').format(DateTime.now());
     return SizedBox(
       width: double.infinity,
-      height: size.height > size.width ? size.height * .15 : size.height * .20,
+      //height: size.height > size.width ? size.height * .15 : size.height * .20,
       child: SafeArea(
         bottom: false,
         child: Padding(
